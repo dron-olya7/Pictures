@@ -1,0 +1,124 @@
+/* использованы стили документации https://github.com/rtplv/airbnb-css-ru */
+
+body {
+    font-family: "FiraSans", sans-serif;
+    background-color: #D9D3D3;
+    background-image: url(/img/background.svg);
+    background-repeat: no-repeat;
+    background-position-x: 484px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container{
+    margin: 0 auto;
+    width: 1360px;
+    align-items: flex-start;
+}
+
+.logo{
+    margin-right: 560px;
+    
+}
+
+nav{
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-bottom: 61px;
+}
+
+
+
+.home{
+    margin-right: 80px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.cont{
+    margin-right: 241px;
+    color: #222222;
+    text-decoration: none;
+    opacity: 0.3;
+}
+
+.left{
+    margin-top: 139px;
+    margin-left: 125px;
+    display: inline-block; 
+    vertical-align: top;   
+}
+
+.left span{    
+    font-weight: 500;
+    font-size: 14px;
+    color: #222222;
+    text-transform: uppercase; 
+    
+}
+
+.left h1{    
+    
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #222222; 
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 131px;
+}
+
+.left p{
+    width: 444px;    
+    font-size: 18px;
+    color: #222222; 
+    opacity: 0.7;
+    margin-bottom: 70px;
+    
+}
+
+.button{
+    width: 160px;
+    background-color: #4737FF;
+    color: #fff;
+    padding: 17px 0 17px 0;
+    text-transform: uppercase;
+    border: 0;
+    margin-right: 34px;
+    margin-bottom: 241px;
+}
+
+.icon{
+    margin-right: 28px;
+    
+}
+
+
+.number{
+    margin-right: 23px;
+    border: 0;
+    padding: 9px 16px 9px 16px;
+    color: #222222;
+    text-decoration: none; 
+    font-weight: 500;
+    background: transparent;
+}
+
+.number:hover{
+    cursor: pointer;
+    background-color: #F96241;
+    color: #fff;
+}
+
+.number:focus{
+    background-color: #F96241;
+    color: #fff;
+}
+
+.right{
+    display: inline-block;
+    width: 475px;
+    height: 757px;
+}
